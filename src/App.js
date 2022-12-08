@@ -3,6 +3,7 @@ import Header from './components/Header';
 import Hero from './components/Hero';
 import Slider from './components/Slider';
 import Virtual from './components/Virtual';
+import Products from './components/Products';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
     <Hero />
     <Slider />
     <Virtual />
+    <Products />
     </div>
   );
 }
