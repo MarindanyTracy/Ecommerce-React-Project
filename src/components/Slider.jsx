@@ -21,7 +21,15 @@ const Slider = () => {
       slidesPerView={3}
       spaceBetween={40}
       slidesPerGroup={1}
-      loop={true}>
+      loop={true}
+      breakpoints={{
+        640: {
+          slidesPerView: 1
+        },
+        0: {
+          slidesPerView: 1
+        }
+      }}>
       
 
       {SliderProducts.map((slide, i) => (
